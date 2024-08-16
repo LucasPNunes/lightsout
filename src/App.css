@@ -1,0 +1,134 @@
+#light{
+  background-color: white;
+}
+
+#dark{
+  background-color: rgb(17, 17, 17);
+}
+
+
+
+#dark .navBar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: rgb(17, 17, 17);
+  height: 75px;
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: fixed;
+  align-items: center;
+}
+
+#light .navBar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: white;
+  height: 75px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  color: black;
+  left: 0;
+  align-items: center;
+}
+
+.banner{
+  display: flex;
+  margin-top: 75px;
+  width: 100%;
+  height: 700px;
+  background-image: url(https://www.penaestrada.blog.br/wp-content/uploads/2020/07/quando-ir-a-fernando-de-noronha-03.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+}
+
+#light .titulo{
+  text-align: center;
+  color: black;
+}
+
+#dark .titulo{
+  text-align: center;
+  color: white;
+}
+
+#light .cardArea{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  background-color: white;
+  width: 100%;
+  height: 800px;
+}
+
+#dark .cardArea{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  background-color: rgb(17, 17, 17);
+  width: 100%;
+  height: 800px;
+  color: white;
+}
+
+#light .card {
+  box-shadow: rgb(212, 212, 212) 5px 5px 5px;
+  margin-top: 100px;
+  background-color: rgb(231, 231, 231);
+  border-radius: 8px;
+  width: 300px;
+  height: 500px;
+  padding: 16px;
+  text-align: center;
+  color: black
+}
+
+#dark .card {
+  box-shadow: black 10px 10px 10px;
+  margin-top: 100px;
+  background-color: #1a1a1a;
+  border-radius: 8px;
+  width: 300px;
+  height: 500px;
+  padding: 16px;
+  text-align: center;
+  color: white;
+}
+
+#light .links{
+  background-color: white;
+  color:black
+}
+
+#dark .links{
+  background-color: rgb(17, 17, 17);
+  color:white
+}
+
+#dark .footer{
+  display: flex;
+  background-color: black;
+  color: white;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  width: 100%;
+  bottom: 0;
+}
+
+#light .footer{
+  display: flex;
+  background-color: rgb(224, 224, 224);
+  color: black;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  width: 100%;
+  bottom: 0;
+}
