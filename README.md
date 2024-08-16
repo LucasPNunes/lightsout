@@ -1,9 +1,3 @@
-Aqui está um exemplo de README para o projeto "lightsout":
-
----
-
-# Lights Out
-
 Este é o repositório referente ao desafio lights-out.
 
 
